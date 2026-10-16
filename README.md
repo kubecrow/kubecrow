@@ -2,7 +2,7 @@
 
 <h1 align="center">KubeCrow</h1>
 
-<p align="center"><a href="https://github.com/kubecrow/kubecrow/releases/latest"><img src="https://img.shields.io/github/v/release/dev-scripts/kubecrow-releases?label=latest&color=2f6fed" alt="Latest release"></a> <img src="https://img.shields.io/badge/macOS-13%2B-black?logo=apple" alt="macOS 13 or later"> <img src="https://img.shields.io/badge/price-free-2ea043" alt="Free"></p>
+<p align="center"><a href="https://github.com/kubecrow/kubecrow/releases/latest"><img src="https://img.shields.io/github/v/release/kubecrow/kubecrow?label=latest&color=2f6fed" alt="Latest release"></a> <img src="https://img.shields.io/badge/macOS-13%2B-black?logo=apple" alt="macOS 13 or later"> <img src="https://img.shields.io/badge/price-free-2ea043" alt="Free"></p>
 
 <p align="center"><strong>The free Kubernetes IDE for Mac.</strong><br>
 A native macOS desktop GUI for every cluster in your kubeconfig: pods and every other resource, logs, shells, YAML, Helm, Amazon EKS, and a Health page that tells you what is wrong before it pages you.</p>
