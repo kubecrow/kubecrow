@@ -2,14 +2,14 @@
 
 <h1 align="center">KubeCrow</h1>
 
-<p align="center"><a href="https://github.com/dev-scripts/kubecrow-releases/releases/latest"><img src="https://img.shields.io/github/v/release/dev-scripts/kubecrow-releases?label=latest&color=2f6fed" alt="Latest release"></a> <img src="https://img.shields.io/badge/macOS-13%2B-black?logo=apple" alt="macOS 13 or later"> <img src="https://img.shields.io/badge/price-free-2ea043" alt="Free"></p>
+<p align="center"><a href="https://github.com/kubecrow/kubecrow/releases/latest"><img src="https://img.shields.io/github/v/release/dev-scripts/kubecrow-releases?label=latest&color=2f6fed" alt="Latest release"></a> <img src="https://img.shields.io/badge/macOS-13%2B-black?logo=apple" alt="macOS 13 or later"> <img src="https://img.shields.io/badge/price-free-2ea043" alt="Free"></p>
 
 <p align="center"><strong>The free Kubernetes IDE for Mac.</strong><br>
 A native macOS desktop GUI for every cluster in your kubeconfig: pods and every other resource, logs, shells, YAML, Helm, Amazon EKS, and a Health page that tells you what is wrong before it pages you.</p>
 
 <p align="center">
-  <a href="https://github.com/dev-scripts/kubecrow-releases/releases/latest"><strong>Download for Apple Silicon</strong></a> ·
-  <a href="https://github.com/dev-scripts/kubecrow-releases/releases/latest"><strong>Download for Intel</strong></a> ·
+  <a href="https://github.com/kubecrow/kubecrow/releases/latest"><strong>Download for Apple Silicon</strong></a> ·
+  <a href="https://github.com/kubecrow/kubecrow/releases/latest"><strong>Download for Intel</strong></a> ·
   <a href="https://kubecrow.com">kubecrow.com</a> ·
   <a href="https://kubecrow.com/releases.html">Release notes</a> ·
   <a href="https://kubecrow.com/guides.html">Guides</a>
@@ -17,7 +17,7 @@ A native macOS desktop GUI for every cluster in your kubeconfig: pods and every 
 
 <p align="center"><a href="https://kubecrow.com"><img src="https://kubecrow.com/assets/screenshots/hero.png" alt="KubeCrow's Health page: cluster score, CPU and memory capacity, usage over time with rollout markers, warning events and the problems list" width="900"></a></p>
 
-This repository hosts the **downloads** for KubeCrow and is where the app checks for updates. The source code is not published here. Questions and bug reports are welcome in [Issues](https://github.com/dev-scripts/kubecrow-releases/issues).
+This repository hosts the **downloads** for KubeCrow and is where the app checks for updates. The source code is not published here. Questions and bug reports are welcome in [Issues](https://github.com/kubecrow/kubecrow/issues).
 
 ## Why KubeCrow
 
@@ -57,7 +57,15 @@ This repository hosts the **downloads** for KubeCrow and is where the app checks
 
 ## Install
 
-1. Download the `.dmg` for your Mac from the [latest release](https://github.com/dev-scripts/kubecrow-releases/releases/latest): `arm64` for Apple Silicon (M1 and later), `x64` for Intel.
+With [Homebrew](https://brew.sh/):
+
+```bash
+brew install kubecrow/tap/kubecrow
+```
+
+Or by hand:
+
+1. Download the `.dmg` for your Mac from the [latest release](https://github.com/kubecrow/kubecrow/releases/latest): `arm64` for Apple Silicon (M1 and later), `x64` for Intel.
 2. Open it and drag KubeCrow into Applications.
 3. Open KubeCrow and sign in with Google or GitHub. Your kubeconfig contexts are listed straight away; EKS clusters from your AWS profiles appear alongside.
 
